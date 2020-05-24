@@ -15,4 +15,26 @@
 .card-img-top {
 	height: 200px;
 	width: 200px;
+	margin: auto ;
+}
+
+.img-qrcode {
+	width: 250px;
+	height: 250px;
+	margin: auto;
+}
+
+.txt-edit {
+	background-color: white;
+	opacity: 50%;
+}
+
+.img-edit {
+margin: auto;
+height: 400px;
+width: 700px;
+}
+
+.card-edit {
+	text-align: center;
 }
