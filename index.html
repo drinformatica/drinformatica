@@ -464,7 +464,7 @@
 
         <div class="col-sm-12 col-md-10 col-lg-8">
 
-          <form>
+          <form action="style/php/contact.php" method="POST" >
             
             <div class="form-row">
 
@@ -482,10 +482,17 @@
 
             </div>
 
-            <div class="form-group col-sm-12">
+            <div class="form-group col-sm-6">
 
               <label for="inputend">Seu endereço</label>
               <input type="text" class="form-control" id="inputend" placeholder="endereco completo">
+
+            </div>
+
+            <div class="form-group col-sm-6">
+
+              <label for="inputend">Seu Telefone</label>
+              <input type="text" class="form-control" id="inputtel" placeholder="telefone">
 
             </div>
 
@@ -499,7 +506,7 @@
             <div class="form-group col-sm-4">
 
               <label for="inputbairro">Seu Bairro</label>
-              <input type="text" class="form-control" id="inputcidade" placeholder="bairro">
+              <input type="text" class="form-control" id="inputbairro" placeholder="bairro">
 
             </div>
 
@@ -519,7 +526,7 @@
               <div class="form-check">
                 
                 <label class="form-check-label">
-                  <input class="form-check-input" type="checkbox">Desejo Receber Novidades por E-mail.
+                  <input class="form-check-input" type="checkbox" id="checkbox">Desejo Receber Novidades por E-mail.
 
                 </label>
 
